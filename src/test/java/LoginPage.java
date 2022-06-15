@@ -20,7 +20,7 @@ public class LoginPage {
     WebElement signInSubmit;
 
     @FindBy(className = "logout")
-    WebElement signOut;
+    WebElement btnSignOut;
 
     @FindBy(className = "header_user_info")
     List<WebElement> lblUserName;
@@ -120,7 +120,7 @@ public class LoginPage {
         txtMobile.sendKeys("890123");
         txtAddressAlias.sendKeys("Badda");
         btnRegister.click();
-        signOut.click();
+        btnSignOut.click();
 
     }
 

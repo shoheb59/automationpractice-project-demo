@@ -1,0 +1,13 @@
+<suite thread-count = "1" verbose = "1" name = "Testing portal automation">
+    <test name = "Portal signup">
+        <classes>
+            <class name  = "SignUpTestRunner"/>
+        </classes>
+    </test>
+
+    <test name = "Portal Login">
+        <classes>
+            <class name  = "LoginTestRunner"/>
+        </classes>
+    </test>
+</suite>
